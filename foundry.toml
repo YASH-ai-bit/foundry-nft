@@ -12,6 +12,7 @@ ffi = true
 fs_permissions = [                                                                          #don't use ffi = true
     { access = "read", path = "./broadcast" },
     { access = "read", path = "./reports" },
+    { access = "read", path = "./img/" }
 ]
 
 # See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
